@@ -1,0 +1,30 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0-windows7.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+		<RootNamespace>ChrisKaczor.Wpf.Windows</RootNamespace>
+		<Title>ChrisKaczor.Wpf.Windows.CategoryWindow</Title>
+		<Authors>Chris Kaczor</Authors>
+		<Product>ChrisKaczor.Wpf.Windows.CategoryWindow</Product>
+		<RepositoryUrl>https://github.com/ckaczor/ChrisKaczor.Wpf.Windows.CategoryWindow</RepositoryUrl>
+		<PackageReadmeFile>README.md</PackageReadmeFile>
+		<Description>A simple reusable window that supports category navigation on the left side.</Description>
+		<PackageId>ChrisKaczor.Wpf.Windows.CategoryWindow</PackageId>
+		<PackageReadmeFile>README.md</PackageReadmeFile>
+		<AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+		<AssemblyName>ChrisKaczor.Wpf.Windows.CategoryWindow</AssemblyName>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="ChrisKaczor.Wpf.Windows.ControlBox" Version="1.0.3" />
+    <PackageReference Include="MahApps.Metro" Version="2.4.10" />
+  </ItemGroup>
+	<ItemGroup>
+		<None Update="README.md">
+			<Pack>True</Pack>
+			<PackagePath>\</PackagePath>
+		</None>
+	</ItemGroup>
+</Project>
